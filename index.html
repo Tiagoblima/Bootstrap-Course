@@ -1,50 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Meu primeiro site com Bootstrap</title>
-
-	<!-- CSS -->
-	<link href="public/css/bootstrap.min.css" rel="stylesheet">
-	<style>p{ padding: 50px } </style>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <style>
+        p{
+            padding:50px;
+        }
+    </style>
 </head>
+
 <body>
 
-	<div class="container-fluid" style="background-color:grey; padding: 100px 0px">
+    <div class="conteiner-fluid" style="background-color: cornflowerblue; padding: 100px 10px">
 
-		<div class="row" style="background-color: magenta">
-			<div class="col-12">
-				<p>MENU</p>
-			</div>
-		</div>
+        <div class="row">
+            <div class="col-12" style="background-color: royalblue">
+                <p>MENU</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-2 col-sm-12" style="background-color: cornsilk">
+                    <p>Hello World</p>
+            </div>
+            <div class="col-xl-8 col-sm-12" style="background-color: greenyellow">
+                    <p>Olá Mundo</p>
+            </div>
+            <div class="col-xl-2 col-sm-12" style="background-color: aquamarine">
+                    <p>Hallo Welt</p>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="col-xl-2 col-sm-12" style="background-color: red">
-				<p>Olá mundo</p>
-			</div>
-			<div class="col-xl-8 col-sm-12" style="background-color: blue">
-				<p>Olá mundo 2</p>
-			</div>
-			<div class="col-xl-2 col-sm-12" style="background-color: green">
-				<p>Olá mundo pela terceira vez</p>
-			</div>
-		</div>
+        <div class="row">
+            <div class="col-6" style="background-color: whitesmoke">
+                <p>New Row</p>
+            </div>
+            <div class="col-6" style="background-color: yellowgreen">
+                    <p>New Row</p>
+                </div>
+        </div>
+    </div>
+    
 
-		<div class="row">
-			<div class="col-xl-6 col-sm-12" style="background-color: black">
-				<p>Rodapé</p>
-			</div>
-			<div class="col-xl-6 col-sm-12" style="background-color: yellow">
-				<p>Rodapé 2</p>
-			</div>
-		</div>
+<footer>
+    
 
-	</div>
+</footer>
 
-	<footer>
-		<!-- JS -->
-		<script src="public/js/jquery.js"></script>
-		<script src="public/js/bootstrap.bundle.min.js"></script>
-	</footer>
-
+<!--JS-->
+<script src="public/js/jquery.js"></script>
+<script src="public/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
